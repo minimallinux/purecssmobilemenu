@@ -15,6 +15,10 @@
       <!--<![endif]-->
       
       <style>
+      .banner {
+      background: ##222;
+      height: 100px;
+      }
       .custom-wrapper {
           background-color: #222;
           margin-bottom: 1em;
@@ -28,7 +32,7 @@
       }
       
       .custom-wrapper.open {
-          height: 25em;
+          height: auto;
       }
       .custom-menu-3 {
           text-align: right;
@@ -41,7 +45,6 @@
           right: 0;
           display: none;
       }
-      
       .custom-toggle .bar {
           background-color: #fff;
           display: block;
@@ -108,6 +111,7 @@
       </style>
   </head>
 <body>
+<header class="banner">
 <div class="custom-wrapper pure-g" id="menu">
           <div class="pure-u-1 pure-u-md-1-3">
               <div class="pure-menu">
@@ -127,10 +131,13 @@
                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Home</a></li>
                       <li class="pure-menu-item"><a href="#" class="pure-menu-link">About</a></li>
                       <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li>
+                       <li class="pure-menu-item"><a href="#" class="pure-menu-link">W3C</a></li>
+                       <li class="pure-menu-item"><a href="#" class="pure-menu-link">Home</a></li>
                   </ul>
               </div>
           </div>
       </div>
+  </header>
   <script src="index.js"></script>
 </body>
 </html>
